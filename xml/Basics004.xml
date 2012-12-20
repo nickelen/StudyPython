@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basics004:Basics004Data xmlns:basics004="http://www.activenetwork.com/schema/testcase/events/createEvents/basics/Basics004" xmlns:event="http://www.activenetwork.com/schema/model/event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.activenetwork.com/schema/testcase/events/createEvents/basics/Basics004 ../../schema/testcase.events.createEvents.basics/Basics004.xsd ">
+  <basics004:event>
+    <event:Basic>
+      <event:Title>basics004</event:Title>
+      <event:Location>
+        <event:LocationName>basics004 location</event:LocationName>
+      </event:Location>
+      <event:Length>
+        <event:one-day>
+          <event:EventDate>2013-01-01</event:EventDate>
+          <event:StartTime>00:00:00</event:StartTime>
+          <event:EndTime>00:30:00</event:EndTime>
+        </event:one-day>
+      </event:Length>
+      <event:Components>
+      	<event:Sourcing></event:Sourcing>
+      </event:Components>
+    </event:Basic>
+  </basics004:event>
+</basics004:Basics004Data>

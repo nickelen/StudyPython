@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basics021:Basics021Data xmlns:basics021="http://www.activenetwork.com/schema/testcase/events/createEvents/basics/Basics021" xmlns:event="http://www.activenetwork.com/schema/model/event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.activenetwork.com/schema/testcase/events/createEvents/basics/Basics021 ../../schema/testcase.events.createEvents.basics/Basics021.xsd ">
+  <basics021:event>
+    <event:Basic>
+      <event:Title>Helen Test Multi Day Event_20120912</event:Title>
+      <event:Location>
+        <event:LocationName>Shanghai</event:LocationName>
+        <event:Address>Shanghai address</event:Address>
+        <event:AddressContinue>Shanghai address continue</event:AddressContinue>
+        <event:CityRegion>SH</event:CityRegion>
+        <event:StateProvince>ShangHai</event:StateProvince>
+        <event:PostalCode>200032</event:PostalCode>
+        <event:County>AF</event:County>
+        <event:Private>false</event:Private>
+      </event:Location>
+      <event:Category>Conference</event:Category>
+      <event:Length>
+        <event:multi-day>
+        	<event:StartDate>2013-01-01</event:StartDate>
+        	<event:EndDate>2013-01-05</event:EndDate>
+        </event:multi-day>
+      </event:Length>
+      <event:Tag>
+      	<event:TagName>Helen Test Tag</event:TagName>
+      	<event:TagDesc>Helen Test Tag</event:TagDesc>
+      	<event:Private>false</event:Private>
+      </event:Tag>
+      <event:Components>
+      	<event:Sourcing></event:Sourcing>
+      </event:Components>
+    </event:Basic>
+  </basics021:event>
+</basics021:Basics021Data>
